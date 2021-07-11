@@ -62,3 +62,6 @@ typings/
 
 # ItelliJ IDEs
 .idea/
+
+# Compiled vue app
+dist/
