@@ -1,4 +1,4 @@
-name: Publish with Dokku
+name: Publish with Dokku to beta website
 on: 
   push:
     branches:
@@ -20,6 +20,6 @@ jobs:
         uses: dokku/github-action@master
         with:
           branch: 'main'
-          git_remote_url: 'ssh://dokku@cyancloud.olaren.dev:22/yuri-configurator'
+          git_remote_url: 'ssh://dokku@cyancloud.olaren.dev:22/yuri-configurator-beta'
           ssh_host_key: ${{ secrets.DOKKU_SSH_HOST_KEY }}
           ssh_private_key: ${{ secrets.DOKKU_SSH_PRIVATE_KEY }}

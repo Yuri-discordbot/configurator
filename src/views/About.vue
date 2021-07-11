@@ -5,3 +5,9 @@
     <p>Author: Catherine Gilbert <a href="https://github.com/Olaren15">Github</a></p>
   </div>
 </template>
+
+<style lang="scss" scoped>
+  .about {
+    text-align: center;
+  }
+</style>
