@@ -2,7 +2,7 @@ name: Publish with Dokku to release website
 on: 
   push:
     tags:
-      - "realese-*"
+      - "release-*"
 
 jobs:
   deploy:
