@@ -3,10 +3,5 @@
     "description": "The web interfact for the yuri configurator",
     "website": "yuri.cyancloud.olaren.dev",
     "repository": "https://github.com/Yuri-discordbot/configurator-web",
-    "success_url": "/",
-    "scripts": {
-        "dokku": {
-            "predeploy": "npm run build"
-        }
-    }
+    "success_url": "/"
 }
