@@ -1,12 +1,15 @@
 {
     "name": "Yuri configurator web",
     "description": "The web interfact for the yuri configurator",
-    "website": "https://yuri.cyancloud.olaren.dev",
+    "website": "https://yuri-configurator.cyancloud.olaren.dev",
     "repository": "https://github.com/Yuri-discordbot/configurator-web",
     "success_url": "/",
     "buildpacks": [
         {
-            "url": "https://github.com/heroku/heroku-buildpack-static.git"
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-static"
         }
     ]
 }
