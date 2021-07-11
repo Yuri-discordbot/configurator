@@ -12,7 +12,8 @@
   "main": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "vue": "^3.1.1",
