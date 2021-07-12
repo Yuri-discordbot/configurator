@@ -27,6 +27,13 @@ export default {
 
 
 <style lang="scss">
+//noinspection CssUnknownTarget
+@import "@/assets/styles/scss/_variables.scss";
+
+body {
+  margin: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,7 +42,6 @@ export default {
 }
 
 #nav {
-  width: 100%;
   padding: 30px;
 
   #logo {
@@ -49,10 +55,10 @@ export default {
 
   a {
     font-weight: bold;
-    color: #845d77;
+    color: $secondary-color;
 
     &.router-link-exact-active {
-      color: #fface2;
+      color: $primary-color;
     }
   }
 }
